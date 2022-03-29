@@ -1,9 +1,7 @@
 # Fiserv NOW - Application Modernization Cookbook
 
-This Cookbook contains recipes to help developers modernize applications using cloud native development practices.
-
-This Cookbook was created by Solution Architects from VMware Tanzu (Pivotal) Labs and developers from Fiserv during the **Fiserv NOW Modernization** consulting engagement, and deployed to Cloud (PCF) as a static-web application.
-
+Cookbook with recipes for developing cloud-ready services using _modern development practices_ and _cloud native principles_.
+This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs** and **Fiserv NOW Team** during the **Fiserv NOW Modernization** engagement in 2022, and deployed to Cloud (PCF) as a static-web application.
 
 ## How to add new recipe to this cookbook
 
