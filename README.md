@@ -3,7 +3,7 @@
 Cookbook with recipes for developing cloud-ready services using _modern development practices_ and _cloud native principles_.
 
 
-This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs** and **Fiserv NOW Team** during the **Fiserv NOW Modernization** engagement in 2022, and deployed to Cloud (PCF) as a static-web application.
+This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs** and **Fiserv NOW Team** during the **Fiserv NOW Modernization** engagement in 2022, and can be deployed in cloud as a static-web application.
 
 ## How to add new recipe to this cookbook
 
@@ -19,7 +19,7 @@ This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs**
 6. Verify the recipe changes in cookbook at http://localhost:1313
 
 
-## How to deploy this cookbook to cloud
+## How to deploy this cookbook to cloud (_Cloud Foundry_)
 
 1. clone this cookbook project from GitHub
 2. `cd app-mod-cookbook-starter`
