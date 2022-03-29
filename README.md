@@ -6,7 +6,7 @@ Cookbook with recipes for developing cloud-ready services using _modern developm
 This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs** and **Fiserv NOW Team** during the **Fiserv NOW Modernization** engagement in 2022, and can be deployed in cloud as a static-web application.
 
 ## How to add new recipe to this cookbook
-1. `cd app-mod-cookbook-starter`
+1. `cd fiserv-now-modernization-cookbook`
 2. `hugo new recipes/my-new-recipe.md` 
 3. `cd content/recipes`
 4. add content to the markdown file using your favorite text editor
@@ -24,7 +24,7 @@ weight = 1
 ```
 -  set `title`,`summary` appropriate to the recipe content and context 
 - `tags`: remove unnecessary tags and add tags specific to the recipe content and context. Remember _less is more_ for the tags!
-6. `cd app-mod-cookbook-starter`
+6. `cd fiserv-now-modernization-cookbook`
 7. Start Hugo locally: `localserver` (Mac or Linux) or `localserver.bat` (Windows)
 6. Verify the recipe appears in cookbook at http://localhost:1313
 7. Checkin in the recipe to this repo
@@ -37,7 +37,7 @@ weight = 1
 3. To Update an existing recipe:
    -  `cd content/recipes`  or `cd content/best-practices`
    - select/edit the appropriate recipe markdown file (.md extension) 
-4. cd to the root directory i.e. cookbook project directory
+4. `cd fiserv-now-modernization-cookbook`
 5. Start Hugo locally: `localserver` (Mac or Linux) or `localserver.bat` (Windows)
 6. Verify the recipe changes in cookbook at http://localhost:1313
 7. Checkin in the recipe to this repo
@@ -46,7 +46,7 @@ weight = 1
 ## How to deploy this cookbook to cloud (_Cloud Foundry_)
 
 1. clone this cookbook project from GitHub
-2. `cd app-mod-cookbook-starter`
+2. `cd fiserv-now-modernization-cookbook`
 3. Generate the cookbook using `publish`  (Mac or Linux) or `publish.bat` (windows)
 4. Using `cf cli` login to the appropriate Cloud Foundry org/space
 5. Deploy the changes to Cloud Foundry
