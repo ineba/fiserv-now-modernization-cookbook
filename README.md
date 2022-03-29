@@ -23,7 +23,7 @@ weight = 1
 +++
 ```
 -  set `title`,`summary` appropriate to the recipe content and context 
-- `tags`: remove unnecessary tags and add tags specific to the recipe content and context
+- `tags`: remove unnecessary tags and add tags specific to the recipe content and context. Remember _less is more_ for the tags!
 6. `cd app-mod-cookbook-starter`
 7. Start Hugo locally: `localserver` (Mac or Linux) or `localserver.bat` (Windows)
 6. Verify the recipe appears in cookbook at http://localhost:1313
