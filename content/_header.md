@@ -1,5 +1,5 @@
 +++
 hidden = true
 +++
-{{< figure src="/images/fiserv-logo.svg" link="/">}}
-Application Modernization Cookbook
+{{< figure src="/images/fiserv-logo.png" link="/">}}
+**Cookbook**
