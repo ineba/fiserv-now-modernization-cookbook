@@ -6,6 +6,28 @@ Cookbook with recipes for developing cloud-ready services using _modern developm
 This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs** and **Fiserv NOW Team** during the **Fiserv NOW Modernization** engagement in 2022, and can be deployed in cloud as a static-web application.
 
 ## How to add new recipe to this cookbook
+1. `cd app-mod-cookbook-starter`
+2. `hugo new recipes/my-new-recipe.md` 
+3. `cd content/recipes`
+4. add content to the markdown file using your favorite text editor
+5. Don't forget to update the _preamble_ at top of the markdown file using the existing markdown files as example.
+
+```toml
++++
+categories = ["recipes"]
+tags = ["application development", "Spring", "Spring Boot", "actuator", "endpoint", "health", "health check"]
+summary = "Configure Actuators in microservice"
+title = "Configure Actuators"
+date = 2020-12-09T14:02:27-05:00
+weight = 1
++++
+```
+-  set `title`,`summary` appropriate to the recipe content and context 
+- `tags`: remove unnecessary tags and add tags specific to the recipe content and context
+6. `cd app-mod-cookbook-starter`
+7. Start Hugo locally: `localserver` (Mac or Linux) or `localserver.bat` (Windows)
+6. Verify the recipe appears in cookbook at http://localhost:1313
+
 
 ## How to update recipe in this cookbook
 
