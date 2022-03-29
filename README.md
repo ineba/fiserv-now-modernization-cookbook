@@ -1,6 +1,6 @@
 # Fiserv NOW - Application Modernization Cookbook
 
-Cookbook contains recipes to help developers complete tasks required to build a fully functional spring boot microservice using the starters.  
+This Cookbook contains recipes to help developers modernize applications using cloud native development and DevOps principles.
 
 This Cookbook was created by VMware Tanzu Labs - Solution Architects and Fiserv developers during the Fiserv NOW Modernization consulting engagement, and, is deployed to PCF as a static-web application.
 
