@@ -5,9 +5,9 @@ This Cookbook contains recipes to help developers modernize applications using c
 This Cookbook was created by Solution Architects from VMware Tanzu (Pivotal) Labs and developers from Fiserv during the **Fiserv NOW Modernization** consulting engagement, and deployed to Cloud (PCF) as a static-web application.
 
 
-## How to add new recipe to this cookbook ?
+## How to add new recipe to this cookbook
 
-## How to update recipe in this cookbook ?
+## How to update recipe in this cookbook
 
 1. Clone this cookbook project from GitHub
 2. Create a project in IntelliJ IDE by importing the cookbook project directory
@@ -19,7 +19,7 @@ This Cookbook was created by Solution Architects from VMware Tanzu (Pivotal) Lab
 6. Verify the recipe changes in cookbook at http://localhost:1313
 
 
-## How to deploy this cookbook to cloud ?
+## How to deploy this cookbook to cloud
 
 1. clone this cookbook project from GitHub
 2. `cd app-mod-cookbook-starter`
