@@ -1,0 +1,18 @@
+
+<aside class="admonition">
+	<div class="admonition-content last-updated">
+		<p class="alignleft"><a href="{{ .Permalink }}" class="hide-child link primary-color">{{ .Title }}</a> was last updated on {{ .Lastmod.Format "January 2, 2006" }}</p>
+	</div>
+</aside>
+
+{{ partial "custom-content-footer.html" . }}
+
+{{ partial "next-prev-page.html" . }}
+
+</section>
+
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+<div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>
+
+{{ partial "original/scripts.html" . }}

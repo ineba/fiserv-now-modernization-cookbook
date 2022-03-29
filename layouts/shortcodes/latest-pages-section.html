@@ -1,0 +1,7 @@
+{{ $thisSection := $.Page.Section }}
+{{.Inner}}
+<ul class="children children-li">
+{{ range first 5 (sort (where ( where .Site.Pages "Section" $thisSection ) ".Title" "!=" $thisSection) ".Date" "desc")}}
+    <span><li>{{ .Date.Format "02/01/2006" }} - <a href="{{ .Permalink }}">{{ .Title }}</a></li></span>
+{{ end }}
+</ul>

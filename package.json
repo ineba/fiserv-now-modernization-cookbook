@@ -1,0 +1,34 @@
+{
+  "name": "modernization-cookbook-template",
+  "version": "1.0.0",
+  "description": "App Transformation Cookbook",
+  "main": "index.html",
+  "scripts": {
+    "start": "hugo server -w -v",
+    "hugo-build": "hugo -Ds '' --gc --minify",
+    "build": "gulp build",
+    "preBuildIndex": "cp buildIndex.js public && cd public && cat index.json | node buildIndex.js  > lunrSerializedIndex.json"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "gulp": "4.0.0",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-cli": "2.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "5.0.3",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify-es": "1.0.4",
+    "minimist": ">=1.2.3",
+    "lodash.template": ">=4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pivotalservices/modernization-cookbook-template.git"
+  },
+  "author": "apptx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pivotalservices/modernization-cookbook-template/issues"
+  },
+  "homepage": "https://github.com/pivotalservices/modernization-cookbook-template#readme"
+}
