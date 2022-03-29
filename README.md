@@ -54,7 +54,7 @@ weight = 1
    - `cf push`
 6. Verify the latest recipes changes appear in the cookbook deployed in Cloud Foundry 
 
-### Author
+## Author
 **Prashanth **'PB'** Belathur**    
 Program Technical Advisor, VMWare Tanzu (Pivotal) Labs.  
 pbelathur@vmware.com
