@@ -22,3 +22,14 @@ This Cookbook was created by Solution Architects from VMware Tanzu (Pivotal) Lab
    - `cd public`
    - `cf push`
 9. Verify the latest recipes changes in cookbook hosted in PCF    
+
+## How to deploy this cookbook to cloud ?
+
+1. clone this cookbook project from GitHub
+2. `cd app-mod-cookbook-starter`
+3. Publish cookbook: `publish`  (Mac or Linux) or `publish.bat` (windows)
+4. Using `cf cli` login to the appropriate Cloud Foundry org/space
+5. Deploy the changes to Cloud Foundry
+   - `cd public`
+   - `cf push`
+6. Verify the latest recipes changes appear in the cookbook deployed in Cloud Foundry 
