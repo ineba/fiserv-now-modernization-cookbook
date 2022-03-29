@@ -29,3 +29,8 @@ This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs**
    - `cd public`
    - `cf push`
 6. Verify the latest recipes changes appear in the cookbook deployed in Cloud Foundry 
+
+### Author
+**Prashanth **'PB'** Belathur**    
+Program Technical Advisor, VMWare Tanzu (Pivotal) Labs.  
+pbelathur@vmware.com
