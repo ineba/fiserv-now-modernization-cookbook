@@ -1,5 +1,5 @@
 +++
 hidden = true
 +++
-{{< figure src="/images/wellsfargo.png" link="/">}}
+{{< figure src="/images/fiserv-logo.svg" link="/">}}
 Application Modernization Cookbook

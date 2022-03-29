@@ -2,7 +2,7 @@
 categories = ["recipes"]
 tags = ["application development", "Spring", "Spring Boot", "actuator", "endpoint", "health", "health check"]
 summary = "Configure Actuators in microservice"
-title = "2. Configure Actuators"
+title = "Configure Actuators"
 date = 2020-12-09T14:02:27-05:00
 weight = 1
 +++
@@ -113,7 +113,7 @@ you can customize the **JMX** domain under which endpoints are exposed using bel
     management:
       endpoints:
         jmx:
-          domain: com.wellsfargo.cto.eai 
+          domain: com.fiserv.cto.eai 
 ```
 
 All **JMX** actuator endpoints can be enabled by adding property in **application.yml** or **application.properties**:

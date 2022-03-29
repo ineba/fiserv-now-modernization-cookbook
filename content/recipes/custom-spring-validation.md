@@ -1,7 +1,7 @@
 +++
 categories = ["recipes"]
 tags = ["practices", "spring boot", "microservice", "custom spring bean validation"]
-title = "4.Custom Spring Bean Validation"
+title = "Custom Spring Bean Validation"
 description = "A guide to use custom validation"
 date = 2020-12-09
 weight = 20
@@ -92,8 +92,8 @@ It's in this method we will define our validation rules.
         Validator validator;
     
         @Override
-        public boolean isValid(com.wellsfargo.cto.eai.customvalidator.model.CustomerLocation customerLocation, ConstraintValidatorContext constraintValidatorContext) {
-            Set<ConstraintViolation<com.wellsfargo.cto.eai.customvalidator.model.CustomerLocation>> constraintViolations = validator.validate(customerLocation);
+        public boolean isValid(com.fiserv.cto.eai.customvalidator.model.CustomerLocation customerLocation, ConstraintValidatorContext constraintValidatorContext) {
+            Set<ConstraintViolation<com.fiserv.cto.eai.customvalidator.model.CustomerLocation>> constraintViolations = validator.validate(customerLocation);
             if (!CollectionUtils.isEmpty(constraintViolations)) {
                 constraintValidatorContext.disableDefaultConstraintViolation();
                 constraintViolations.forEach(customerLocationConstraintViolation -> constraintValidatorContext

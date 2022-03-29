@@ -1,7 +1,7 @@
 +++
 categories = ["recipes"]
 tags = ["practices", "spring boot", "microservice", "application development"]
-title = "1.Organize Spring Boot App"
+title = "Organize Spring Boot App"
 description = "A simple guide to organize codebase in a microservice"
 date = 2020-12-09
 weight = 10
@@ -218,39 +218,39 @@ Again, there are many ways to do this just keep in mind that consistency across 
 ### Package by Layer Example
 
 ```
-com.wellsfargo.cto.eai/
+com.fiserv.cto.eai/
                    TrackingApplication.java
                    
-com.wellsfargo.cto.eai.config/
+com.fiserv.cto.eai.config/
                    SecurityConfig.java
                    RedisConfig.java
                    
-com.wellsfargo.cto.eai.controller/
+com.fiserv.cto.eai.controller/
                    AccountController.java
                    AccountControllerAdvice.java
                    AccountInputValidator.java
                    
-com.wellsfargo.cto.eai.controller.model/
+com.fiserv.cto.eai.controller.model/
                    AccountRequest.java
                    AccountResponse.java
                    ...
                    
-com.wellsfargo.cto.eai.model/
+com.fiserv.cto.eai.model/
                    AccountStatus.java
                    Customer.java
                    ...
                    
-com.wellsfargo.cto.eai.service/
+com.fiserv.cto.eai.service/
                    AccountService.java
                    CustomerService.java
                    
-com.wellsfargo.cto.eai.repo/
+com.fiserv.cto.eai.repo/
                    AccountRepo.java
                    JDBCAcountRepo.java
                    CustomerRepo.java
                    CDSCustomerRepo.java
                    
-com.wellsfargo.cto.eai.repo.model/
+com.fiserv.cto.eai.repo.model/
                    Customer.java							
 ```
 
