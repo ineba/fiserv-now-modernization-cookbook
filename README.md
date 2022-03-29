@@ -10,7 +10,7 @@ This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs**
 2. `hugo new recipes/my-new-recipe.md` 
 3. `cd content/recipes`
 4. add content to the markdown file using your favorite text editor
-5. Don't forget to update the _preamble_ at top of the markdown file using the existing markdown files as example.
+5. Don't forget to update the _preamble_ at top of the markdown file using the existing markdown files as reference.
 
 ```toml
 +++
