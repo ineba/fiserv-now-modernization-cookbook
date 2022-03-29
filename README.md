@@ -27,6 +27,7 @@ weight = 1
 6. `cd app-mod-cookbook-starter`
 7. Start Hugo locally: `localserver` (Mac or Linux) or `localserver.bat` (Windows)
 6. Verify the recipe appears in cookbook at http://localhost:1313
+7. Checkin in the recipe to this repo
 
 
 ## How to update recipe in this cookbook
@@ -39,13 +40,14 @@ weight = 1
 4. cd to the root directory i.e. cookbook project directory
 5. Start Hugo locally: `localserver` (Mac or Linux) or `localserver.bat` (Windows)
 6. Verify the recipe changes in cookbook at http://localhost:1313
+7. Checkin in the recipe to this repo
 
 
 ## How to deploy this cookbook to cloud (_Cloud Foundry_)
 
 1. clone this cookbook project from GitHub
 2. `cd app-mod-cookbook-starter`
-3. Publish cookbook: `publish`  (Mac or Linux) or `publish.bat` (windows)
+3. Generate the cookbook using `publish`  (Mac or Linux) or `publish.bat` (windows)
 4. Using `cf cli` login to the appropriate Cloud Foundry org/space
 5. Deploy the changes to Cloud Foundry
    - `cd public`
