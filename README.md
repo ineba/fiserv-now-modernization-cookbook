@@ -2,7 +2,8 @@
 
 This Cookbook contains recipes to help developers modernize applications using cloud native development practices.
 
-This Cookbook was created by VMware Tanzu Labs - Solution Architects and Fiserv developers during the Fiserv NOW Modernization consulting engagement, and, is deployed to PCF as a static-web application.
+This Cookbook was created by Solution Architects from VMware Tanzu (Pivotal) Labs and developers from Fiserv in the **Fiserv NOW Modernization** consulting engagement, and, is deployed to Cloud (PCF) as a static-web application.
+
 
 ## How to add a new recipe to this cookbook ?
 
