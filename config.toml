@@ -1,8 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "WellsFargo Application Modernization Cookbook"
-copyright = " Wells Fargo, All Rights Reserved, Confidential"
+title = "Fiserv NOW Modernization - Application Modernization Cookbook"
+copyright = " Fiserv, All Rights Reserved, Confidential"
 theme = "hugo-theme-docdock"
 publishDir = "public"
 pygmentsCodeFences = true

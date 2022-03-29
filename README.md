@@ -1,17 +1,17 @@
-# WellsFargo Application Starter Cookbook
+# Fiserv NOW - Application Modernization Cookbook
 
 
 Cookbook contains recipes to help developers complete tasks required to build a fully functional spring boot microservice using the starters.  
 
-Cookbook was created by VMware Tanzu Labs - Solution Architects (Prashanth _PB_ Belathur and Rohan Mukesh) during the WellsFargo Enterprise Architecture Consulting engagement and, can be deployed to PCF as a web application.
+This Cookbook was created by VMware Tanzu Labs - Solution Architects and Fiserv developers during the Fiserv NOW Modernization consulting engagement and, can be deployed to PCF as a web application.
 
 ## CONTEXT
 
-The application starters in Gitlab will help Wells Fargo developers to create _non-reactive_ or _reactive_ microservices based on the business need:
+The application starters in Gitlab will help Fiserv developers to create _non-reactive_ or _reactive_ microservices based on the business need:
 - **greenfield-app-starter** for migrating a _legacy application_ to a cloud-ready microservice.
 - **greenfield-reactive-app-starter** for _greenfield applications_, to take advantage of the non-blocking behavior which improves application performance and resiliency.
 
-Both the app starters share a common tech stack, comprising components approved for use within Wells Fargo.
+Both the app starters share a common tech stack, comprising components approved for use within Fiserv.
 
 ![Application Tech Stack](.../../static/images/tech-stack.png)
 

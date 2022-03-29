@@ -34,7 +34,7 @@ This recipe deals with configuring persistence in the microservice.
    application:
            name:
            description:
-           id: <wells fargo distributed-id>
+           id: <Fiserv distributed-id>
            persistence:
               mongodb:
                   host:
