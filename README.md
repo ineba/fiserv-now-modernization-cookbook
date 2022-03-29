@@ -34,7 +34,7 @@ weight = 1
 1. Clone this cookbook project from GitHub
 2. Create a project in IntelliJ IDE by importing the cookbook project directory
 3. To Update an existing recipe:
-   -  `cd content\recipes`  or `cd content\best-practices`
+   -  `cd content/recipes`  or `cd content/best-practices`
    - select/edit the appropriate recipe markdown file (.md extension) 
 4. cd to the root directory i.e. cookbook project directory
 5. Start Hugo locally: `localserver` (Mac or Linux) or `localserver.bat` (Windows)
