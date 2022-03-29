@@ -14,10 +14,10 @@ This cookbook was a collaborative effort between **VMWare Tanzu (Pivotal) Labs**
 
 ```toml
 +++
+title = "Configure Actuators"
+summary = "Configure Actuators in microservice"
 categories = ["recipes"]
 tags = ["application development", "Spring", "Spring Boot", "actuator", "endpoint", "health", "health check"]
-summary = "Configure Actuators in microservice"
-title = "Configure Actuators"
 date = 2020-12-09T14:02:27-05:00
 weight = 1
 +++
